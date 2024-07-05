@@ -13094,4 +13094,54 @@ iframe {
   font-size: 13px;
 }
 
+footer {
+  background-color: #35322d;
+  color: #fff;
+  text-align: center;
+  padding: 4vh 0;
+}
+
+.footer-p1 {
+  font-family: myFirstFont;
+  color: #ffb03b;
+  font-size: 33px;
+  font-weight: bold;
+}
+
+.footer-p2 {
+  font-style: italic;
+  font-size: 14px;
+}
+
+footer i {
+  padding: 7px 10px;
+  color: #fff;
+  border-radius: 50%;
+  background-color: #46423b;
+  transition: 0.4s;
+  cursor: pointer;
+}
+footer i:hover {
+  background-color: orange;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+  padding-bottom: 5vh;
+  padding-top: 5vh;
+}
+
+.footer-p3 {
+  font-size: 13px;
+  margin: 0;
+  padding-bottom: 5px;
+}
+.footer-p3 a {
+  color: orange;
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=app.css.map */
