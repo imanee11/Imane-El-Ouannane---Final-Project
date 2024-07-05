@@ -8,3 +8,8 @@ $chefColor : #6c665c
 $myColor : ("orange":$spanColor , "title" : $titleColor , "chefcolor":$chefColor)
 
 $theme-colors : map-merge($myColor , $theme-colors)
+
+
+$spacer : 10px
+$custom-spacers: ( 6: $spacer * 4, 7: $spacer * 6, 8: $spacer * 7, 9: $spacer * 9, 10: $spacer * 10 , 11: $spacer * 11)
+$spacers: map-merge($spacers, $custom-spacers)
