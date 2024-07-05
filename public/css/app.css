@@ -12524,4 +12524,76 @@ nav {
   color: #ffb03b;
 }
 
+.section3 {
+  text-align: center;
+  padding: 10vh 5vw;
+}
+
+.section3-p1 {
+  font-family: myFirstFont;
+  font-size: 30px;
+  font-weight: bold;
+  color: #5f5950;
+}
+.section3-p1 span {
+  font-family: myFirstFont;
+  color: #ffb03b;
+}
+
+.section3-p2 {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 4vh;
+}
+
+.section3-div {
+  display: flex;
+  gap: 2vw;
+  text-align: center;
+  justify-content: center;
+}
+
+.section3-divs {
+  text-align: start;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  width: 600px;
+  height: 270px;
+  padding: 0 3vw;
+  padding-top: 7vh;
+  transition: 0.4s;
+}
+.section3-divs:hover {
+  background-color: #ffb03b;
+}
+
+.content-p1 {
+  color: #ffcf88;
+  font-size: 25px;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+.content-p2 {
+  color: #5f5950;
+  font-family: myFirstFont;
+  font-size: 23px;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+.content-p3 {
+  color: #848484;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.content {
+  transition: 0.4s;
+}
+.content:hover p {
+  transform: translateY(-20px);
+  color: #fff;
+}
+
 /*# sourceMappingURL=app.css.map */
