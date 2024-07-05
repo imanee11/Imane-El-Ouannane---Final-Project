@@ -12655,4 +12655,75 @@ nav {
   font-style: italic;
 }
 
+.section5 {
+  text-align: center;
+  padding: 10vh 0vw;
+}
+
+.section5-p1 {
+  font-family: myFirstFont;
+  font-size: 30px;
+  font-weight: bold;
+  color: #5f5950;
+}
+.section5-p1 span {
+  font-family: myFirstFont;
+  color: #ffb03b;
+}
+
+.section5-p2 {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 4vh;
+}
+
+.filter2 {
+  display: flex;
+  padding: 0 4vw;
+}
+
+.section5-links {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  gap: 4vh;
+}
+.section5-links a {
+  color: #433f39;
+  transition: 0.4s;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+.section5-links a:hover {
+  color: orange;
+}
+
+.section5-info {
+  text-align: start;
+  width: 80%;
+}
+
+.info-p1 {
+  font-family: MyFirstFont;
+  font-size: 28px;
+  font-weight: bold;
+  color: #433f39;
+}
+
+.info-p2 {
+  color: #777777;
+  font-style: italic;
+}
+
+.info-p3 {
+  color: #777777;
+}
+
+.section5-right-part {
+  display: flex;
+  width: 100%;
+}
+
 /*# sourceMappingURL=app.css.map */
