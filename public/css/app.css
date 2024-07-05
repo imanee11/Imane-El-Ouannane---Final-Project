@@ -12859,4 +12859,51 @@ nav {
   background-color: #f7a01d;
 }
 
+.section8 {
+  padding: 10vh 0vw;
+}
+
+.section8-p1 {
+  font-family: myFirstFont;
+  font-size: 30px;
+  font-weight: bold;
+  color: #5f5950;
+  text-align: center;
+}
+.section8-p1 span {
+  font-family: myFirstFont;
+  color: #ffb03b;
+}
+
+.section8-p2 {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 4vh;
+}
+
+.gallery {
+  text-align: center;
+  padding: 0vh 2vw;
+}
+
+.gallery-top-div,
+.gallery-bottom-div {
+  display: flex;
+  gap: 2px;
+  padding-bottom: 2px;
+}
+.gallery-top-div div,
+.gallery-bottom-div div {
+  overflow: hidden;
+}
+.gallery-top-div img,
+.gallery-bottom-div img {
+  transition: all 0.3s ease;
+}
+.gallery-top-div img:hover,
+.gallery-bottom-div img:hover {
+  transform: scale(1.1);
+}
+
 /*# sourceMappingURL=app.css.map */
