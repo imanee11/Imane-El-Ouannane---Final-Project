@@ -12783,4 +12783,80 @@ nav {
   display: inline-block;
 }
 
+.section7 {
+  padding: 10vh 0vw;
+}
+
+.section7-p1 {
+  font-family: myFirstFont;
+  font-size: 30px;
+  font-weight: bold;
+  color: #5f5950;
+  text-align: center;
+}
+.section7-p1 span {
+  font-family: myFirstFont;
+  color: #ffb03b;
+}
+
+.section7-p2 {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 4vh;
+}
+
+.form1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  width: 90vw;
+  padding: 4vh 3vw;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.form1 div {
+  display: flex;
+  gap: 1vw;
+  padding-bottom: 3vh;
+}
+.form1 div input {
+  width: 400vw;
+  height: 7vh;
+  padding-left: 1vw;
+  border: 1px solid #e1dcdc;
+}
+.form1 div input::placeholder {
+  font-size: 13px;
+}
+.form1 textarea {
+  height: 20vh;
+  padding-left: 1vw;
+  padding-top: 1vh;
+  border: 1px solid #e1dcdc;
+}
+.form1 textarea::placeholder {
+  font-size: 13px;
+}
+
+.btn-div {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 4vh;
+}
+.btn-div button {
+  background-color: #ffb03b;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  transition: 0.4s;
+}
+.btn-div button:hover {
+  background-color: #f7a01d;
+}
+
 /*# sourceMappingURL=app.css.map */
