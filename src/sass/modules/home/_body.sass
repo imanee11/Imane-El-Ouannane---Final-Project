@@ -4,7 +4,217 @@
 @font-face 
     font-family: myFirstFont
     src: url(../fonts/Satisfy/Satisfy-Regular.ttf)  format('truetype')
+@font-face 
+    font-family: myThirdFont
+    src: url(../fonts/Comic/ComicNeue-Regular.ttf)  format('truetype')
 *
     padding: 0
     margin: 0
     font-family: mySecondFont
+html
+    scroll-behavior: smooth
+
+.back-to-top
+    position: fixed
+    bottom: 5vh
+    right: 10px
+    z-index: 999
+    a
+        i
+            padding: 10px 13px
+            color: #fff
+            border-radius: 50%
+            background-color: orange
+            transition: 0.4s
+            cursor: pointer
+            font-weight: bold
+            &:hover
+                background-color: #ffb03b
+
+@media ( max-width: 426px)
+    .nav-right-part
+        .nav-links
+            background-color: #fff
+            position: fixed
+            border-radius: 10px
+            width: 90%
+            height: 90vh
+            top: 8vh
+            bottom: 5vh
+            left: 5vw
+            right: 5vw
+            flex-direction: column
+            padding: 20px
+            gap: 20px
+            font-size: 16px
+            display: none
+            z-index: 100
+            a
+                color: #000
+    .nav-right-part
+        .nav-links
+            .close-icon
+                display: block
+                text-align: end
+    nav
+        justify-content: start !important
+        display: flex
+        position: relative
+        gap: 28vw
+        .menu-icon
+            display: flex
+            color: #fff   
+            text-align: end  
+            position: absolute   
+            right: 10px
+            font-size: 20px
+    nav
+        #switcher:checked ~ .nav-right-part .nav-links
+            display: flex
+
+
+
+    // section 1 media
+    .section1
+        width: 100%
+    .carousel1
+        img
+            width: 100%
+            height: 100vh
+            object-fit: cover
+    .carousel-content-p2
+        width: 70% !important
+
+
+    // section 2 media
+    .section2
+        padding: 0 !important
+        display: flex
+        flex-direction: column
+        gap: 0
+    video 
+        width: 100%
+    .section2-right-part
+        width: 100% !important
+        padding: 1vh 3vw
+    .play-btn
+        top: 25vh !important
+        left: 43vw !important
+
+
+    // section 3 media
+    .section3-div
+        display: flex
+        flex-direction: column
+        gap: 20px !important
+    .section3-p2
+        width: 90% !important
+    .section3-divs
+        width: 100% !important
+    
+    // sectin 4 media
+    .menu
+        display: flex
+        flex-direction: column
+        padding: 0 4vw
+
+    .btn4
+        margin-top: 10px !important
+    
+
+    // section 6 media
+    .carousel2
+        display: flex
+        flex-direction: column
+    img
+        width: 100% !important
+
+    // section 5 media
+    .filter2
+        display: flex
+        flex-direction: column !important
+
+    .section5-right-part
+        display: flex
+        flex-direction: column
+        flex-direction: column-reverse !important
+    
+    .section5-p2
+        width: 90% !important
+
+    .section5-links
+        width: 100% !important
+
+    .section5-right-part
+        width: 100% !important 
+    .section5-info
+        width: 100% !important
+    // section 7 media
+    .form1
+        div
+            display: flex
+            flex-direction: column
+            gap: 20px !important
+            input
+                width: 100% !important
+    .btn-div
+        display: flex
+        margin: auto
+    .section7-p2
+        width: 90% !important
+
+
+    // section 8 media
+    .gallery
+        display: flex
+        flex-direction: column !important
+        gap: 5px !important
+
+
+    .gallery-top-div,
+    .gallery-bottom-div
+        display: flex
+        flex-direction: column
+        gap: 5px !important
+
+
+    .section8-p1,
+    .section8-p2
+        width: 90% !important
+        margin: auto !important
+
+    // section 9 media
+    .section9-p2
+        width: 90% !important
+
+
+    // section 10 media
+    .carousel3
+        img
+            width: 80px !important
+    .section10-p3
+        width: 80% !important
+        margin: auto
+
+    // section 11 media
+    .section11-p2
+        width: 90% !important
+
+    // section 12 media
+
+    .section12-top
+        display: flex
+        flex-direction: column
+    .form2
+        div
+            display: flex
+            flex-direction: column
+            input
+                width: 100% !important
+    .contact
+        display: flex
+        gap: 10px !important
+
+    
+    // footer media
+    

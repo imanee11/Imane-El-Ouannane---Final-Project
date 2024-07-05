@@ -1,13 +1,14 @@
-@font-face 
-    font-family: myFirstFont
-    src: url(../fonts/Satisfy/Satisfy-Regular.ttf)  format('truetype')
-
 nav
     display: flex
     justify-content: space-between
     padding: 2vh 5vw
     align-items: center
     background-color: rgba(0,0 ,0 ,0.7) 
+    position: fixed
+    top: 0
+    right: 0
+    left: 0
+    z-index: 100
 .nav-right-part
     display: flex
     align-items: center
@@ -19,8 +20,10 @@ nav
         color: #fff
         text-decoration: none
         transition: 0.4s
+        font-size: 14px
         &:hover
             color: #ffb03b
+    
 .logo
     font-family: myFirstFont
     font-size: 30px
@@ -38,3 +41,9 @@ nav
 .nav-btn
     &:hover
         background-color: #f7a01d
+
+
+.menu-icon
+    display: none
+.close-icon
+    display: none

@@ -1,2 +1,10 @@
 @import ../../node_modules/bootstrap/scss/functions
 @import ../../node_modules/bootstrap/scss/variables
+
+$spanColor : #ffb03b
+$titleColor : #5f5950
+$chefColor : #6c665c
+
+$myColor : ("orange":$spanColor , "title" : $titleColor , "chefcolor":$chefColor)
+
+$theme-colors : map-merge($myColor , $theme-colors)
