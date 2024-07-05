@@ -12935,4 +12935,49 @@ nav {
   color: #ffb03b;
 }
 
+.section10 {
+  background: url(../images/testimonials-bg.jpg) center center/cover no-repeat;
+  position: relative;
+}
+.section10::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.carousel3 {
+  text-align: center;
+  color: #fff;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+.carousel3 img {
+  border-radius: 50%;
+  border: 5px solid rgba(95, 89, 80, 0.5);
+}
+.carousel3 i {
+  color: orange;
+}
+
+.section10-p1 {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0;
+}
+
+.section10-p2 {
+  color: #DDDDDD;
+  font-size: 13px;
+  font-family: myThirdFont;
+}
+
+.section10-p3 {
+  width: 60%;
+  margin: auto;
+}
+
 /*# sourceMappingURL=app.css.map */
