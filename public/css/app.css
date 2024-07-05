@@ -12407,4 +12407,121 @@ nav {
   display: none;
 }
 
+.carousel1 {
+  position: relative;
+  height: 100vh;
+}
+.carousel1 img {
+  filter: brightness(0.6);
+}
+
+.carousel-content {
+  position: absolute;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  gap: 0;
+}
+
+.carousel-content-p1 {
+  font-family: myFirstFont;
+  text-align: center;
+  color: #fff;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.carousel-content-p1 span {
+  font-family: myFirstFont;
+  color: #ffb03b;
+}
+
+.carousel-content-p2 {
+  color: #fff;
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 4vh;
+}
+
+.carousel-content div {
+  gap: 20px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.carousel-content div button {
+  background: rgba(33, 37, 41, 0);
+  border: 2px solid #ffb03b;
+  color: #fff;
+  font-size: 13px;
+  padding: 8px 30px;
+  border-radius: 20px;
+  transition: 0.4s;
+  font-weight: bold;
+}
+.carousel-content div button:hover {
+  background-color: #ffb03b;
+}
+
+.section2 {
+  display: flex;
+  gap: 7vw;
+  background-color: #fffaf3;
+  padding: 10vh 0;
+}
+
+.section2-left-part {
+  position: relative;
+}
+
+.play-btn {
+  position: absolute;
+  top: 35vh;
+  left: 17vw;
+}
+.play-btn i {
+  background-color: #ffb03b;
+  padding: 10px 15px;
+  border-radius: 50%;
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.section2-right-part {
+  width: 520px;
+}
+
+.section2-right-part-p1 {
+  font-family: myFirstFont;
+  color: #5f5950;
+  font-size: 33px;
+  margin: 0;
+}
+
+.section2-right-part-p1 span {
+  font-family: myFirstFont;
+  font-weight: bold;
+}
+
+.section2-right-part-p2 {
+  color: #848484;
+  font-size: 15px;
+}
+
+.list-div {
+  display: flex;
+  gap: 1vw;
+}
+.list-div i {
+  font-size: 20px;
+  color: #ffb03b;
+}
+
 /*# sourceMappingURL=app.css.map */
